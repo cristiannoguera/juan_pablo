@@ -1,0 +1,181 @@
+body {
+    font-family: montserrat;
+}
+.container {
+    background-color: #ffffff;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#divisor {
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    height: 480px;
+}
+.lateral1 {
+    padding: 20px;
+}
+#mision {
+    text-align: right;
+    padding: 20px;
+}
+#parrafo {
+    text-align: justify;
+
+}
+
+.item{
+    margin: 1em;
+    padding: 1em;
+    color: #ffffff;
+    float: left;
+}
+.menu {
+    list-style: none;
+    padding: 0;
+    background: #8a0202;
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    font: medium;
+    font-size: 20px;
+    text-align: center;
+}
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+.menu li a:hover {
+    background: #6d0808;
+}
+hr{
+    color: #192a56;
+    width: 100%;
+    height: 5px;
+    background-color: #192a56;
+}
+
+/*Carrusel*/
+
+#carrusel{
+    margin: auto;
+    background-color: white;
+    width: 800px;
+    padding: 30px;
+}
+ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.slider{
+    position: relative;
+    width: 800px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul.slider li{
+position: absolute;
+left: 0;
+top: 0;
+opacity: 0;
+width: inherit;
+height: inherit;
+background-color: white;
+transition: opacity .5s;
+}
+ul.slider li img{
+    width: 100%;
+    height:300px;
+    object-fit: cover;
+    border: gray
+}
+ul.slider li:first-child{
+    opacity: 1;
+}
+ul.slider li:target{
+opacity: 1;
+}
+.menu_slide{
+    text-align: center;
+    margin: 15px;
+}
+.menu_slide li{
+    display: inline-block;
+    text-align: center;
+}
+.menu_slide li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: #192a56;
+    padding: 10px;
+    width: 7px;
+    height: 7px;
+    font-size: 7px;
+    border-radius: 100px;
+}
+/*
+img {
+    width: 600px;
+    display: block;
+    margin: auto;
+    margin-top: 35px;
+}*/
+
+.lateral1{
+    background: #192a56 no-repeat;
+    background-size: cover;
+    height: 280px;
+    text-align: justify;
+}
+#mision{
+    color: white;
+    text-align: center;
+    margin-left: 48%;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.lateral1 p{
+    margin: 30px;
+    color: white;
+    font-size: 18px;
+}
+h1 {
+    font-size-adjust: unset;
+    color: #192a56;
+    margin: 30px;}
+
+.redes {
+    height: 50px;
+    background-color: #ffffff;
+    padding-top:30px;
+    padding-bottom: 0px;
+}
+.redes h2 {
+    text-align: center;
+    font-weight: bold;
+    color: #192a56;
+}
+.social {
+    text-align: center;
+    padding-top: 0px ;
+    padding-bottom: 0px;
+}
+.social li {
+    display: inline-block;
+    text-align: center;
+}
+.social img {
+    width: 35px;
+    padding: 10px;
+    position: center;
+}
