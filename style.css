@@ -1,6 +1,7 @@
 body {
     font-family: montserrat;
 }
+/*Header*/
 .header {
     background-color: #ffffff;
     padding: 0px;
@@ -12,6 +13,11 @@ body {
 .titulo {
     float: left;
 }
+h1 {
+    font-size-adjust: unset;
+    color: #192a56;
+    margin: 30px;
+}
 .logo img{
     width: 100px;
     padding-left: 40px;
@@ -22,30 +28,8 @@ body {
     padding-top: 0%;
     margin-top: 0%;
 }
-#divisor {
-    width: 100%;
-    height: 200px;
-    background-size: cover;
-    height: 480px;
-}
-.lateral1 {
-    padding: 20px;
-}
-#mision {
-    text-align: right;
-    padding: 20px;
-}
-#parrafo {
-    text-align: justify;
-
-}
-
-.item{
-    margin: 1em;
-    padding: 1em;
-    color: #ffffff;
-    float: left;
-}
+/*Fin Header*/
+/*Menu*/
 .menu {
     list-style: none;
     padding: 0;
@@ -76,6 +60,8 @@ hr{
     height: 5px;
     background-color: #8a0202;
 }
+
+/*fin Menu*/
 
 /*Carrusel*/
 
@@ -138,37 +124,38 @@ opacity: 1;
     font-size: 7px;
     border-radius: 100px;
 }
-/*
-img {
-    width: 600px;
-    display: block;
-    margin: auto;
-    margin-top: 35px;
-}*/
+/*Fin Slider*/
 
-.lateral1{
-    background: #8a0202;
-    background-size: cover;
-    height: 280px;
+/*Seccion 2*/
+.horizontal{
+    background-color: #8a0202;
+    padding: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.horizontal div {
+    border: white solid 1px;
+}
+.mision {
+    float: left;
+    padding: 30px;
+    margin: 40px;
+    margin-left: 10%;
+    color: #ffffff;
+    max-width: 30%;
     text-align: justify;
 }
-#mision{
-    color: white;
-    text-align: center;
-    margin-left: 48%;
-    margin-top: 10px;
-    font-size: 20px;
+.vision {
+    float: left;
+    padding: 30px;
+    margin: 40px;
+    margin-left: 10%;
+    color: #ffffff;
+    max-width: 30%;
+    text-align: justify;    
 }
-.lateral1 p{
-    margin: 30px;
-    color: white;
-    font-size: 18px;
-}
-h1 {
-    font-size-adjust: unset;
-    color: #192a56;
-    margin: 30px;}
 
+/*termina seccion 2*/
 .redes {
     height: 50px;
     background-color: #ffffff;
