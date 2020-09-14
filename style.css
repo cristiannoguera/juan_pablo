@@ -163,14 +163,13 @@ opacity: 1;
 }
 .evento{
     border: 1px solid black;
-    color: blue;
     display: inline-block;
     margin: 0.5%;
     padding: 1em;
     vertical-align: top;
     width: 29.4%;
     background: white;
-    opacity: 75%;
+    opacity: 95%;
 }
 .eventos img {
     width: 100%;
@@ -184,19 +183,48 @@ opacity: 1;
 }
 .evento p{
     text-align: justify;
+    color: #192a56;
 }
-
-/*Redes*/
+/*contacto*/
+.contacto {
+    float: left;
+    width: 100%;
+    margin: o;
+    background: #02113f;
+    height: 700px;
+}
+.contacto hr {
+    color: #8a0202;
+    margin: 0;
+    padding: 0%;
+    border: none;
+    height: 15px;;
+}
+.contacto p{
+    color: #ffffff;
+    margin: 10px;
+}
+.contacto h2 {
+    color: #ffffff;
+    text-align: center
+}
+.ubicacion {
+    border: 10px solid white;
+}
+.contacto iframe {
+    width: 100%;
+    
+}
 .redes {
     height: 50px;
-    background-color: #ffffff;
+    background-color: ;
     padding-top:30px;
     padding-bottom: 0px;
 }
 .redes h2 {
     text-align: center;
     font-weight: bold;
-    color: #192a56;
+    color: #ffffff;
 }
 .social {
     text-align: center;
