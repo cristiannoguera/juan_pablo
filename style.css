@@ -1,6 +1,9 @@
 body {
     font-family: montserrat;
 }
+.container {
+    width: 100%;
+}
 /*Header*/
 .header {
     background-color: #ffffff;
@@ -30,7 +33,6 @@ body {
     padding: 0;
     background: #192a56;
     width: 100%;
-    max-width: 100%;
     margin: auto;
     font: medium;
     font-size: 20px;
@@ -152,6 +154,39 @@ opacity: 1;
 }
 
 /*termina seccion 2*/
+
+/*Eventos*/
+.eventos {
+    background: #02113f;
+    padding-bottom: 25px;
+    margin: 0;    
+}
+.evento{
+    border: 1px solid black;
+    color: blue;
+    display: inline-block;
+    margin: 0.5%;
+    padding: 1em;
+    vertical-align: top;
+    width: 29.4%;
+    background: white;
+    opacity: 75%;
+}
+.eventos img {
+    width: 100%;
+}
+.eventos h2{
+    font-style: normal;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+}
+.evento p{
+    text-align: justify;
+}
+
+/*Redes*/
 .redes {
     height: 50px;
     background-color: #ffffff;
