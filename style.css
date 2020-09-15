@@ -1,7 +1,7 @@
 body {
     font-family: montserrat;
 }
-.container {
+.main {
     width: 100%;
 }
 /*Header*/
@@ -124,7 +124,8 @@ opacity: 1;
     border-radius: 100px;
 }
 
-/*Seccion 2*/
+/*Seccion uno*/
+
 .horizontal{
     background-color:#c23616;
     padding: 10px;
