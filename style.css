@@ -1,5 +1,13 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: montserrat;
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
 }
 .main {
     width: 100%;
@@ -21,7 +29,7 @@ body {
     padding-left: 40px;
 }
 .titulo p {
-    font-size: 8;
+    font-size: 14px;
     padding-left: 110px;
     padding-top: 0%;
     margin-top: 0% ;
@@ -186,45 +194,76 @@ opacity: 1;
     color: #192a56;
     margin: 7px;
 }
-
-/*Ultimas noticias*/
-.noticias {
-    width: 100%;
-    padding: 10px;
+/*Eventos_2*/
+.noticias2 {
     margin: 10px;
-    float: left;
+    padding: 40px;
 }
-.noticias h2 {
+.noticias2 h2 {
     text-align: center;
-    color: #02113f;
+    font-size: 40px;
+    color: #192a56;
+    margin-top: 10px;
+    font-weight: 100;
 }
-.noticia {
-    border: 1px solid gray;
-    display: inline-block;
-    margin: 0.5%;
-    padding: 1em;
-    vertical-align: top;
-    width: 29.4%;
-    background: white;
+.eventos_2 {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
 }
-.noticia img {
+.eventos_2 .events {
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+.eventos_2 .events:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.eventos_2 .events img {
+    width: 330px;
+    height: 220px;
+}
+.eventos_2 .events h4{
+    font-weight: 600;
+}
+.eventos_2 .events p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+}
+.eventos_2 .events a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+.hrdos{
+    color: #c23616;
+    margin-top: 10px;
+    border: none;
+    height: 15px;
     width: 100%;
 }
 /*contacto*/
-
+footer {
+    margin: 0;
+}
 .contacto {
     float: left;
     width: 100%;
-    margin: o;
+    margin-top: 0;
+    padding: 0;
     background: #02113f;
     height: 700px;
-}
-.contacto hr {
-    color: #c23616;
-    margin: 0;
-    padding: 0%;
-    border: none;
-    height: 15px;;
 }
 .contacto h2 {
     color: #ffffff;
@@ -243,14 +282,17 @@ opacity: 1;
     border: none
 }
 .contacto iframe {
-    width: 100%;
+    width: 99.75%;
+    height: 300px;
 }
 .redes {
-    height: 200px;
+    height: 100px;
     background-color: #02113f;
-    padding-top:20px;
+    padding-top:10px;
 }
 .redes h2 {
+    margin-top: 15px;
+    padding: 0;
     text-align: center;
     font-weight: bold;
     color: #ffffff;
@@ -265,11 +307,13 @@ opacity: 1;
     text-align: center;
 }
 .social img {
-    width: 35px;
+    margin-top: 0;
+    width: 32px;
     position: center;
 }
 .redes p {
     text-align: center;
     text-decoration: solid;
     width: auto;
+    font-size: 12px;
 }
