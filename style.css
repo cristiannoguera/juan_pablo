@@ -6,42 +6,55 @@ body {
     font-family: montserrat;
     width: 100%;
     height: 100%;
-    letter-spacing: 0.03em;
-    line-height: 1.6;
 }
 .main {
     width: 100%;
 }
 /*Header*/
 .header {
-    background-color: #ffffff; 
+    background-color: #162753; 
     padding: 0px;
     overflow: hidden;
 }
 .logo {
     float: left;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 0;
+    margin-right: 1em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0;
 }
 .titulo {
     float: left;
+    margin: 1em;
+    padding: 1em;
+}
+.titulo h1 {
+    color: white;
+    font: 600;
+    margin: 0;
+    padding: 0;
 }
 .logo img{
     width: 100px;
     padding-left: 40px;
 }
 .titulo p {
+    color: white;
     font-size: 14px;
-    padding-left: 110px;
-    padding-top: 0%;
-    margin-top: 0% ;
+    margin-top: 15px;
+    text-align: center;
 }
-
 /*Menu*/
 .menu {
     list-style: none;
     padding: 0;
-    background: #192a56;
+    background: #162753;
     width: 100%;
-    margin: auto;
+    margin: 0;
     font: medium;
     font-size: 20px;
     text-align: center;
@@ -52,6 +65,7 @@ body {
     color: white;
     padding: 20px;
     display: block;
+    font-style: bold;
 }
 .menu li {
     display: inline-block;
