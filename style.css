@@ -146,36 +146,37 @@ opacity: 1;
     border-radius: 100px;
 }
 
-/*Seccion uno*/
+/*Seccion nosotros*/
 
-.horizontal{
+.nosotros{
     background-color:#c23616;
     padding: 10px;
-    overflow: hidden;
-    position: relative;
-}
-.horizontal div {
-    border: white solid 1px;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
     width: 100%;
-    height: 400px;
+    height: 100%;
+    align-items: center;
 }
 .mision {
     float: left;
-    padding: 30px;
-    margin: 40px;
-    margin-left: 10%;
     color: #ffffff;
-    max-width: 30%;
+    max-width: 400px;
+    height: 300px;
     text-align: justify;
+    margin: 10px;
+    padding: 10px;
+
+
 }
 .vision {
     float: left;
-    padding: 30px;
-    margin: 40px;
-    margin-left: 10%;
     color: #ffffff;
-    max-width: 30%;
-    text-align: justify;    
+    max-width: 400px;
+    height: 300px;
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
 }
 
 /*Eventos*/
